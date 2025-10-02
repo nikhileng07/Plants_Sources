@@ -12,19 +12,16 @@
       padding: 20px;
       text-align: center;
     }
-
     h1 {
       color: #2e7d32;
       margin-bottom: 20px;
     }
-
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;
       padding: 20px;
     }
-
     .item {
       display: flex;
       flex-direction: column;
@@ -35,120 +32,63 @@
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       transition: transform 0.3s, box-shadow 0.3s;
     }
-
     .item:hover {
       transform: scale(1.05);
       box-shadow: 0 8px 16px rgba(0,0,0,0.2);
     }
-
     .item img {
       width: 100%;
       border-radius: 12px;
       margin-bottom: 10px;
     }
-
     .qr {
-      width: 100px;
-      height: 100px;
       margin-top: 5px;
     }
   </style>
 </head>
 <body>
   <h1>🌿 Plant Gallery with QR Codes 🌿</h1>
-  <div class="gallery">
-    <!-- Loop for all 25 images -->
-    <div class="item">
-      <img src="plant_images/image-1.jpg" alt="Plant 1">
-      <img class="qr" src="qr_codes/qr_image-1.jpg" alt="QR Plant 1">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-2.jpg" alt="Plant 2">
-      <img class="qr" src="qr_codes/qr_image-2.jpg" alt="QR Plant 2">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-3.jpg" alt="Plant 3">
-      <img class="qr" src="qr_codes/qr_image-3.jpg" alt="QR Plant 3">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-4.jpg" alt="Plant 4">
-      <img class="qr" src="qr_codes/qr_image-4.jpg" alt="QR Plant 4">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-5.jpg" alt="Plant 5">
-      <img class="qr" src="qr_codes/qr_image-5.jpg" alt="QR Plant 5">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-6.jpg" alt="Plant 6">
-      <img class="qr" src="qr_codes/qr_image-6.jpg" alt="QR Plant 6">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-7.jpg" alt="Plant 7">
-      <img class="qr" src="qr_codes/qr_image-7.jpg" alt="QR Plant 7">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-8.jpg" alt="Plant 8">
-      <img class="qr" src="qr_codes/qr_image-8.jpg" alt="QR Plant 8">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-9.jpg" alt="Plant 9">
-      <img class="qr" src="qr_codes/qr_image-9.jpg" alt="QR Plant 9">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-10.jpg" alt="Plant 10">
-      <img class="qr" src="qr_codes/qr_image-10.jpg" alt="QR Plant 10">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-11.jpg" alt="Plant 11">
-      <img class="qr" src="qr_codes/qr_image-11.jpg" alt="QR Plant 11">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-12.jpg" alt="Plant 12">
-      <img class="qr" src="qr_codes/qr_image-12.jpg" alt="QR Plant 12">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-13.jpg" alt="Plant 13">
-      <img class="qr" src="qr_codes/qr_image-13.jpg" alt="QR Plant 13">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-14.jpg" alt="Plant 14">
-      <img class="qr" src="qr_codes/qr_image-14.jpg" alt="QR Plant 14">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-15.jpg" alt="Plant 15">
-      <img class="qr" src="qr_codes/qr_image-15.jpg" alt="QR Plant 15">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-16.jpg" alt="Plant 16">
-      <img class="qr" src="qr_codes/qr_image-16.jpg" alt="QR Plant 16">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-17.jpg" alt="Plant 17">
-      <img class="qr" src="qr_codes/qr_image-17.jpg" alt="QR Plant 17">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-18.jpg" alt="Plant 18">
-      <img class="qr" src="qr_codes/qr_image-18.jpg" alt="QR Plant 18">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-19.jpg" alt="Plant 19">
-      <img class="qr" src="qr_codes/qr_image-19.jpg" alt="QR Plant 19">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-20.jpg" alt="Plant 20">
-      <img class="qr" src="qr_codes/qr_image-20.jpg" alt="QR Plant 20">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-21.jpg" alt="Plant 21">
-      <img class="qr" src="qr_codes/qr_image-21.jpg" alt="QR Plant 21">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-22.jpg" alt="Plant 22">
-      <img class="qr" src="qr_codes/qr_image-22.jpg" alt="QR Plant 22">
-    </div>
-    <div class="item">
-      <img src="plant_images/image-23.jpg" alt="Plant 23">
-      <img class="qr" src="qr_codes/qr_image-23.jpg" alt="QR Plant 23">
-    </div>
+  <div class="gallery" id="gallery"></div>
+
+  <!-- QRCode.js library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script>
+    const gallery = document.getElementById('gallery');
+
+    // Number of plant images
+    const totalImages = 25;
+
+    // Base path for plant images
+    const imagePath = "plant_images/";
+
+    // Your live GitHub Pages URL (for QR code link)
+    const baseURL = "https://nikhileng07.github.io/Plants_Sources/plant_images/";
+
+    for (let i = 1; i <= totalImages; i++) {
+      // Create item container
+      const item = document.createElement('div');
+      item.classList.add('item');
+
+      // Plant image
+      const img = document.createElement('img');
+      img.src = `${imagePath}image-${i}.jpg`;
+      img.alt = `Plant ${i}`;
+      item.appendChild(img);
+
+      // QR code container
+      const qrDiv = document.createElement('div');
+      qrDiv.classList.add('qr');
+      item.appendChild(qrDiv);
+
+      // Generate QR code linking to the live image
+      new QRCode(qrDiv, {
+        text: `${baseURL}image-${i}.jpg`,
+        width: 100,
+        height: 100
+      });
+
+      gallery.appendChild(item);
+    }
+  </script>
 </body>
 </html>
